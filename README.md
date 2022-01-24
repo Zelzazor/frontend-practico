@@ -11,7 +11,7 @@
 
 > Este es un proyecto realizado para el curso práctico de Frontend Developer de Platzi.
 
-### ✨ [Demo](https://www.zelzazor.github.io/frontend-practico/)
+### ✨ [Demo](https://zelzazor.github.io/frontend-practico/)
 
 ## Author
 
