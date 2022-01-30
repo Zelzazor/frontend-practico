@@ -25,7 +25,8 @@ body {
 .form-container {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    width: 18.75rem;
+    width: 300px;
+    justify-items: center;
 }
 
 .logo {
@@ -48,27 +49,6 @@ body {
     text-align: center;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
-.label {
-    font-size: var(--sm);
-    font-weight: bold;
-    margin-bottom: 0.25rem;
-}
-
-.input {
-    background-color: var(--text-input-field);
-    border: none;
-    border-radius: 0.5rem;
-    height: 2rem;
-    font-size: var(--md);
-    padding: 0.375rem;
-    margin-bottom: 0.75rem;
-}
-
 .primary-button {
     background-color: var(--hospital-green);
     border-radius: 0.5rem;
@@ -86,6 +66,34 @@ body {
     margin-top: 2rem;
 }
 
+.email-image {
+    width: 8.25rem;
+    height: 8.25rem;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.email-image img {
+    width: 5rem;
+}
+
+.resend  {
+    font-size: var(--sm);
+    margin-top: 4rem;
+}
+
+.resend span {
+    color: var(--very-light-pink);
+}
+
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
+}
 
 @media (min-width: 426px){
     .logo{
